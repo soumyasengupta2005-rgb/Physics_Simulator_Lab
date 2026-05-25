@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+[data-testid="stAppViewContainer"] {
+    background: radial-gradient(ellipse at 20% 0%, #0d1b2a 0%, #050a10 60%);
+    background-attachment: fixed;
+}
+[data-testid="stHeader"] { background: transparent; }
+[data-testid="stSidebar"] {
+    background: rgba(8, 18, 30, 0.95) !important;
+    border-right: 1px solid rgba(56,163,209,0.1);
+}
+.page-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    background: linear-gradient(135deg, #e8f4fd 30%, #7ec8e3 70%, #38a3d1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 6px 0;
+    line-height: 1.1;
+}
+.page-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #5a7f99;
+    margin: 0 0 8px 0;
+}
+.title-divider {
+    width: 48px; height: 2px;
+    background: linear-gradient(90deg, #38a3d1, transparent);
+    border-radius: 2px;
+    margin: 14px 0 32px 0;
+}
+.section-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: #38a3d1; margin: 0 0 6px 0;
+}
+.info-box {
+    background: rgba(56, 163, 209, 0.07);
+    border: 1px solid rgba(56, 163, 209, 0.2);
+    border-left: 3px solid #38a3d1;
+    border-radius: 0 10px 10px 0;
+    padding: 14px 18px; margin: 8px 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; color: #7ec8e3; line-height: 1.6;
+}
+[data-testid="stPlotlyChart"] {
+    border-radius: 14px; overflow: hidden;
+    border: 1px solid rgba(56, 163, 209, 0.12);
+}
+[data-testid="stMetric"] {
+    background: rgba(10, 22, 36, 0.8);
+    border: 1px solid rgba(56, 163, 209, 0.12);
+    border-radius: 12px; padding: 14px 16px !important;
+}
+[data-testid="stMetricLabel"] p {
+    color: #3a5f7a !important; font-size: 11px !important;
+    text-transform: uppercase; letter-spacing: 1.5px;
+}
+[data-testid="stMetricValue"] {
+    color: #7ec8e3 !important;
+    font-family: 'Syne', sans-serif !important;
+    font-size: 24px !important;
+}
+[data-testid="stDownloadButton"] button {
+    background: rgba(56, 163, 209, 0.08) !important;
+    border: 1px solid rgba(56, 163, 209, 0.3) !important;
+    color: #7ec8e3 !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 13px !important; border-radius: 8px !important;
+    padding: 8px 18px !important; transition: all 0.2s ease !important;
+}
+[data-testid="stDownloadButton"] button:hover {
+    background: rgba(56, 163, 209, 0.18) !important;
+    border-color: rgba(56, 163, 209, 0.6) !important;
+}
+[data-testid="stCheckbox"] label p,
+[data-testid="stSlider"] label p {
+    color: #7a9bb5 !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 13px !important;
+}
