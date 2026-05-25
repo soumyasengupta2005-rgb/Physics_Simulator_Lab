@@ -42,8 +42,8 @@ The goal of this project is to make complex physics concepts intuitive through v
 ## How to Run Locally
 
 1. Clone the repository:
-   git clone (https://soumyasengupta2005-rgb.github.io/Physics_Simulator_Lab/)
-   cd soumyasengupta2005-rgb
+   git clone ([https://soumyasengupta2005-rgb.github.io/Physics_Simulator_Lab/](https://github.com/soumyasengupta2005-rgb/Physics_Simulator_Lab.git))
+   cd Physics_Simulator_Lab
 
 2. Create a virtual environment:
    python -m venv venv
